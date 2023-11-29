@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="SATVIK GANGULY" />
+    <meta
+      name="description"
+      content="This page contains all the things that I am learning how to create as I learn html"
+    />
+    <meta keywords="HTML, CSS" />
+    <meta http-equiv="refresh" content="60" />
+    <title>Learning</title>
+    <link rel="icon" href="img/html.png" type="image/x-icon" />
+    <!--FAVICON-->
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello World!</h1>
+
+      <nav aria-label="primary-nav">
+        <ul type="none">
+          <li><a href="#html">Learning HTML</a></li>
+          <li><a href="#vacation">Planning a vacation</a></li>
+          <li><a href="#science">Science</a></li>
+          <li><a href="#Oppenheimer">Oppenheimer</a></li>
+          <li><a href="#ict">Indian Cricket Team</a></li>
+          <li><a href="#stars">Stars</a></li>
+          <li><a href="#fbi">FBI open up</a></li>
+          <li><a href="#bottom">Bottom of the page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <article id="html">
+        <h2>I am Learning web development</h2>
+        <figure>
+          <a href="https://html.com/" target="_blank">
+            <!--image as a link-->
+            <img
+              src="img/html5.png"
+              alt="html5"
+              title="html"
+              height="200"
+              width="200"
+            />
+          </a>
+          <figcaption><samp>An example of HTML code</samp></figcaption>
+          <p>
+            <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            <!--To display coding-->
+          </p>
+        </figure>
+        <p><samp>This is my first web page</samp></p>
+
+        <h3>My daily schedule</h3>
+        Let me tell you how I...
+
+        <details>
+          <summary>...</summary>
+          <ul type="none">
+            <li>...I learn more about web dev</li>
+            <li>...I plan my schedule</li>
+            <li>
+              ...I use resources from
+              <abbr title="Mozilla developer network">
+                <a href="https://developer.mozilla.org/" target="_blank">MDN</a>
+              </abbr>
+            </li>
+          </ul>
+        </details>
+      </article>
+
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+
+      <!--hr*5 is used (any element can be multiplied like br*5)-->
+
+      <article id="vacation">
+        <h2>I am also planning a vacation</h2>
+
+        <p>I've been studying hard so I really need a getaway.</p>
+        <p>I want to visit <del>Mountains</del> <ins>Beaches</ins></p>
+
+        <h3>Places I'd Like to visit</h3>
+        <p>I've heard good things about Vizag</p>
+        <figure>
+          <img
+            src="img/beach.jpg"
+            alt="beach"
+            title="ahh! nice and warm"
+            loading="lazy"
+          />
+          <figcaption>Vizag Beach getaway</figcaption>
+        </figure>
+        <!--lazy loading to improve page speed(only used for images below fold)-->
+        <address>
+          Rushikonda Beach<br />
+          Vishakhapatnam, 530045
+        </address>
+
+        <h3>Places I want to avoid</h3>
+        <dl>
+          <dt>North Pole</dt>
+          <dd>I hear this is <strong>cold!</strong></dd>
+
+          <dt>South Pole</dt>
+          <dd>This is also <u>cold</u></dd>
+
+          <dt>Mountain Tops</dt>
+          <dd>These are also <i>cold</i></dd>
+        </dl>
+      </article>
+
+      <hr />
+
+      <section id="science">
+        <p>
+          In 1905 Sir <em>Albert Einstein</em> gave the formula E=mc<sup>2</sup>
+        </p>
+        <p>Logarithm Functions :</p>
+        For example : n = a<sup>x</sup> =&gt; Log<sub>a</sub>n = x
+        <br />
+
+        <blockquote
+          cite="https://www.britannica.com/biography/J-Robert-Oppenheimer"
+        >
+          <h3 id="Oppenheimer">Oppenheimer</h3>
+          <p>
+            J. Robert Oppenheimer, in full Julius Robert Oppenheimer, (born
+            April 22, 1904, New York, New York, U.S.—died February 18, 1967,
+            Princeton, New Jersey), American theoretical physicist and science
+            administrator, noted as
+            <mark
+              >director of the Los Alamos Laboratory (1943–45) during
+              development of the atomic bomb and as director of the Institute
+              for Advanced Study, Princeton (1947–66).</mark
+            >
+            <!--mark element-->
+            Accusations of disloyalty led to a government hearing that resulted
+            in the loss of his security clearance and of his position as adviser
+            to the highest echelons of the U.S. government. The case became a
+            cause célèbre in the world of science because of its implications
+            concerning political and moral issues relating to the role of
+            scientists in government.
+          </p>
+        </blockquote>
+
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<q
+            >Now I am become death, destroyer of worlds.</q
+          >
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<cite
+            >~J. Robert Oppenheimer</cite
+          >
+        </p>
+
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A <dfn>Black Hole</dfn> is a
+          region in space time from which nothing, not even light can escape.
+        </p>
+
+        <hr />
+      </section>
+
+      <p>Laptop Computer</p>
+      <p><s>Was &dollar;995</s></p>
+      <p>Now only &dollar;375</p>
+
+      <hr />
+      <section id="ict">
+        <h3>Indian Cricket Squad</h3>
+        <ol type="i" style="line-height: 180%">
+          <!--reversed attribute can also be used, start can be specified, Align, Type can be Changed (A/a/I/i) -->
+          <li>Rohit Sharma(C)</li>
+          <li>Shubhman Gill</li>
+          <li>Virat Kohli</li>
+          <li>Shreyas Iyer</li>
+          <li>Suryakumar Yadav</li>
+          <li>Tilak Verma</li>
+          <li>KL Rahul</li>
+          <li>Ishan Kishan</li>
+          <li>Hardik Pandya(VC)</li>
+          <li>Ravindra Jadeja</li>
+          <li>Shardul Thakur</li>
+          <li>Axar Patel</li>
+          <li>Kuldeep Yadav</li>
+          <li>Jasprit Bumrah</li>
+          <li>Mohd. Shami</li>
+          <li>Mohd. Siraj</li>
+        </ol>
+      </section>
+      <hr />
+      <section id="stars">
+        <h3>Types of Stars</h3>
+        <!--Nested Lists-->
+        <ol>
+          <li>Class - O</li>
+          <ul>
+            <li>Temperature 30,000K - 50,000K</li>
+            <li>Color - Blue</li>
+            <li>Example - Alnitak</li>
+          </ul>
+          <li>Class - B</li>
+          <ul>
+            <li>Temperature 10,000K - 30,000K</li>
+            <li>Color - Blue/White</li>
+            <li>Example - Rigel</li>
+          </ul>
+          <li>Class - A</li>
+          <ul>
+            <li>Temperature - 7,500K - 10,000K</li>
+            <li>Color - White</li>
+            <li>Example - Vega</li>
+          </ul>
+          <li>Class - F</li>
+          <ul>
+            <li>Temperature - 6,000K - 7,500K</li>
+            <li>Color - Yellow/White</li>
+            <li>Example - Procyon</li>
+          </ul>
+          <li>Class - G</li>
+          <ul>
+            <li>Temperature - 5,200K - 6,000K</li>
+            <li>Color - Yellow</li>
+            <li>Example - Sun</li>
+          </ul>
+          <li>Class - K</li>
+          <ul>
+            <li>Temperature - 3,700K - 5,200K</li>
+            <li>Color - Orange</li>
+            <li>Example - Pollux</li>
+          </ul>
+          <li>Class - M</li>
+          <ul>
+            <li>Temperature - &lt; 3,700K</li>
+            <li>Color - Red</li>
+            <li>Example - Betelguese</li>
+          </ul>
+        </ol>
+      </section>
+
+      <aside id="fbi">
+        <p>FBI open up!</p>
+        <a
+          href="https://youtu.be/dQw4w9WgXcQ?si=yDfrDKCs-Ee7uGw4"
+          target="_blank"
+        >
+          <video
+            autoplay
+            muted
+            loop
+            controls
+            height="40%"
+            width="40%"
+            title="DO NOT CLICK"
+          >
+            <source
+              src="vid/y2mate.bz - FBI Open Up - Clip.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </a>
+      </aside>
+    </main>
+
+    <footer>
+      <a href="about.html" target="_blank">About</a>
+      <p><a href="#">Back to top</a></p>
+      <div id="bottom"></div>
+    </footer>
+    <!--TODO: Template, Meter, Forms(web dev simplified), Fieldset-->
+  </body>
+</html>
